@@ -5,7 +5,7 @@ import Wordle from "./components/Wordle";
 function App() {
   const [solution,setSolution]=useState(null)
   useEffect(()=>{
-    fetch('http://localhost:3001/solutions')
+    fetch('https://www.jsonkeeper.com/b/RZZM')
     .then(res=>res.json())
     .then(json=>{
       //console.log(json)
